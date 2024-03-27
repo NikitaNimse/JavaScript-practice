@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 24</title>
+</head>
+<body>
+    <h1>practice of function</h1>
+    <script>
+      //argument and return
+        function Areaofrectangle(length,breadth){
+         const area=length*breadth;
+         return area;
+        }
+         const AreaofRectangleIS=Areaofrectangle(4,6);
+         document.write(`area of rectangle is:${AreaofRectangleIS}`);
+         document.write(`<br>`);
+
+        // argument but not return
+      
+        function Rectanglearea(length,breadth)
+        {
+            const area=length*breadth;
+            document.write(`area of rectangle ${area}`);
+        }
+
+        Rectanglearea(15,8);
+        document.write(`<br>`);
+        //no argument but return
+        const l1=12;
+        const b1=7;
+        function rarea(){
+            const area=l1*b1;
+            return area
+        }
+        const areaofR= rarea();
+        document.write(`area of rectangle ${areaofR}`);
+         document.write(`<br>`);
+
+
+         //no argument  and no return
+         
+          const reclength=30;
+          const recbreadth=4;
+          function RectangleArea(){
+            const rectarea=reclength*recbreadth;
+            document.write(`area of rectangle ${rectarea}`);
+          }
+          RectangleArea()
+
+
+
+
+
+
+
+
+        // Area of  squqre
+        const s=7;
+        
+        const area2=s*s;
+        console.log(`Area  of square for side ${s} is ${area2}`);
+
+         //rectangle3
+         const r=5;
+        
+        const area3= 3.14*r*r;
+        console.log(`Area  circle for radius ${r} is ${area3}`);
+
+
+    </script>
+</body>
+</html>
